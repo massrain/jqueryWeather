@@ -1,0 +1,135 @@
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    justify-content: center!important;  
+}
+.row--mt3{
+    margin-top:30px;
+}
+
+.row--mt2{
+    margin-top:20px;
+}
+
+.row__items{
+    justify-content: center!important;
+}
+
+.row__alert{
+color:red;
+}
+
+.alert__notfound{
+    font-weight:bold;
+}
+
+.container{
+    padding:50px;
+    padding-top: 10px;
+	margin:auto;
+	align-items: center;
+    justify-content: center;
+	height:100vh;
+}
+.container__inside{
+    display:flex;
+    padding:20px;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:auto;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+button {
+    padding: 0.5em 0.5em;
+    font-size: 17px;
+    margin: 1em;
+    text-decoration: none;
+	margin:auto;
+    text-align: center;
+}
+.button__close {
+    padding: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-appearance: none;
+    float: right;
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+}
+
+
+
+/* Fixes */
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+.box{
+    border:1px chocolate solid;
+    padding: 5px;
+    border-radius: 10px;
+    min-width:24vh;
+    min-height:24vh;
+    margin: 0 5px;
+    justify-content: center;
+    align-items: center; 
+    margin:.25rem!important;
+    border-color: #343a40!important;
+}
+.box:hover{
+    background-color:lightgray;
+}
+
+/* Main Utilities */
+body {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+	margin:auto;
+    overflow:hidden;
+	align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h1, h1 {
+    margin-top: 0;
+    font-size: 1.75rem;
+    margin-bottom: .5rem; 
+    font-family: inherit; 
+    font-weight: 500; 
+    color: inherit; 
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+}
+.form-control {
+    display: block;
+    width: 60vh;
+    height: calc(2.25rem + 2px);
+    padding: 0!important;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.card-body{
+    padding:0.75rem!important;
+}
+.close-icon {
+    cursor: pointer;
+}
