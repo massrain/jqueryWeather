@@ -28,7 +28,7 @@ $(document).ready(function () {
             response += "<button type=\"button\" class=\"button__close\" name=\""+result.name.toLowerCase()+"\"><span aria-hidden=\"true\">&times;</span></button>";
             response += "<h1>" + result.name + "</h1>";
             response += "<p style=\"margin-bottom: 0;margin-top: 0;font-size: 16px;\">" + result.weather[0].description;
-            response += "<img src='http://openweathermap.org/img/w/" + result.weather[0].icon + ".png'</p>";
+            response += "<img class=\"img\" src='http://openweathermap.org/img/w/" + result.weather[0].icon + ".png'</p>";
             response += "<h1>" + Math.round(result.main.temp) + "&deg; C</h1>";
             response += "</div>";
             $('#cityname').val("");

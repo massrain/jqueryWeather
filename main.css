@@ -42,7 +42,7 @@ color:red;
     flex-direction: row;
     flex-flow: wrap;
 }
-button {
+.button {
     padding: 0.5em 0.5em;
     font-size: 17px;
     margin: 1em;
@@ -88,7 +88,7 @@ button {
 }
 
 /* Main Utilities */
-body {
+.body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -109,7 +109,7 @@ body {
     font-weight: 500; 
     color: inherit; 
 }
-img {
+.img {
     vertical-align: middle;
     border-style: none;
 }
@@ -126,6 +126,10 @@ img {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.searchbar{
+    width: 40vh;
+    font-size: 13px;
 }
 .card-body{
     padding:0.75rem!important;
